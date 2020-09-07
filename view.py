@@ -1,5 +1,5 @@
 from color import *
-from Bio.SeqUtils import seq1
+import numpy as np
 
 from bokeh.plotting import figure, show
 from bokeh.models import HoverTool, LinearColorMapper, LinearAxis, Segment
