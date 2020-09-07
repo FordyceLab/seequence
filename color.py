@@ -1,4 +1,6 @@
 # COLOR SCHEMES (http://acces.ens-lyon.fr/biotic/rastop/help/colour.htm)
+from Bio.SeqUtils import seq1
+
 aa_rasmol = {
 'ASP': '#E60A0A',
 'GLU': '#E60A0A',
