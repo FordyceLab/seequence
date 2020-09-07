@@ -1,3 +1,4 @@
+from color import *
 from bokeh.plotting import figure, show
 from bokeh.models import HoverTool, LinearColorMapper, LinearAxis, Segment
 from bokeh.models import ColumnDataSource, Range1d, BasicTicker, CustomJS
