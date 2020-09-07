@@ -1,3 +1,13 @@
+from bokeh.plotting import figure, show
+from bokeh.models import HoverTool, LinearColorMapper, LinearAxis, Segment
+from bokeh.models import ColumnDataSource, Range1d, BasicTicker, CustomJS
+from bokeh.models.glyphs import Text, Rect
+from bokeh.events import DoubleTap
+from bokeh.layouts import gridplot
+from bokeh.transform import transform
+from bokeh.io import output_notebook
+output_notebook()
+
 def view_seq(seq, layer, start=0,scale=1, cd=None, xr=None):
   # DATA
   seq_l = len(seq)
