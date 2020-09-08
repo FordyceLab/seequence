@@ -27,9 +27,10 @@ show(gp)
 
 Features:
 - visualization:
+  - align to x-axis with `start`, `scale`
+  - hover text with indices
   - character -> color mappings (default dicts in `color.py`)
   - zoom-sensitive character visibility
-  - align to x-axis with `start`, `scale`
 - interactivity:
   - x-zoom: scroll
   - x-pan: click + drag
