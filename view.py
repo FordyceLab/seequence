@@ -34,7 +34,7 @@ def view_seq(seq, layer, start=0,scale=1, cd=None, xr=None):
   font_pt = 8
   f = figure(y_range=[layer],
             min_border=0, height=2*(font_pt), sizing_mode='stretch_width',
-            tools='xpan,xwheel_zoom', active_scroll='xwheel_zoom')
+            tools='xpan,xwheel_zoom', active_scroll='xwheel_zoom', output_backend='webgl')
   f.add_tools(HoverTool(tooltips='@char $index (@x_start_ax{0})',
                         anchor='bottom_center', attachment='below',
                         names=['rects']))
