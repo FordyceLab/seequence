@@ -1,7 +1,7 @@
 # seequence
 Display/explore (bio)sequences with Bokeh
 
-example:
+Example:
 ![](demo.gif)
 ```python
 from view import *
