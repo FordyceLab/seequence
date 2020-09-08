@@ -2,7 +2,6 @@
 Display/explore (bio)sequences with Bokeh
 
 Example:
-![](demo.gif)
 ```python
 from view import *
 from color import *
@@ -24,6 +23,7 @@ gp = gridplot(f_ls, ncols=1,
               toolbar_location='left', toolbar_options={'logo':None})
 show(gp)
 ```
+![](demo.gif)
 
 Features:
 - visualization:
