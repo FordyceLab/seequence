@@ -32,6 +32,6 @@ show(gp)
   - character -> color mappings (default dicts in `color.py`)
   - zoom-sensitive character visibility
 - interactivity:
-  - x-zoom: scroll
-  - x-pan: click + drag
-  - reset: double click
+  - `x-zoom`: scroll
+  - `x-pan`: click + drag
+  - `reset`: double click
