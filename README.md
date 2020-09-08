@@ -1,7 +1,7 @@
 # seequence
 Display/explore (bio)sequences with Bokeh
 
-Example:
+**Example:**
 ```python
 from view import *
 from color import *
@@ -25,7 +25,7 @@ show(gp)
 ```
 ![](demo.gif)
 
-Features:
+**Features:**
 - visualization:
   - align to x-axis with `start`, `scale`
   - hover text with indices
