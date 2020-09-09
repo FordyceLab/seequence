@@ -9,7 +9,8 @@ from bokeh.events import DoubleTap
 from bokeh.layouts import gridplot
 from bokeh.transform import transform
 from bokeh.io import output_notebook
-output_notebook(resources='cdn')
+from bokeh.resources import Resources
+output_notebook(Resources(mode="cdn", components=["bokeh", "bokeh-gl"]))
 
 def view_seq(seq, layer, start=0,scale=1, cd=None, xr=None):
   # DATA
