@@ -2,7 +2,7 @@ from color import *
 import numpy as np
 
 from bokeh.plotting import figure, show
-from bokeh.models import HoverTool, LinearAxis, Segment
+from bokeh.models import HoverTool, LinearAxis
 from bokeh.models import ColumnDataSource, Range1d, BasicTicker, CustomJS
 from bokeh.models.glyphs import Text, Rect
 from bokeh.transform import linear_cmap
