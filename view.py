@@ -2,15 +2,17 @@ from color import *
 import numpy as np
 
 from bokeh.plotting import figure, show
-from bokeh.transform import linear_cmap
 from bokeh.models import HoverTool, LinearAxis, Segment
 from bokeh.models import ColumnDataSource, Range1d, BasicTicker, CustomJS
 from bokeh.models.glyphs import Text, Rect
+from bokeh.transform import linear_cmap
+from bokeh.models.annotations import ColorBar
 from bokeh.events import DoubleTap
 from bokeh.layouts import gridplot
 from bokeh.resources import Resources
 from bokeh.io import output_notebook
 output_notebook(Resources(mode="cdn", components=["bokeh", "bokeh-gl"]))
+
 
 def view_seq(seq, layer, start=0,scale=1, cd=None, xr=None):
   # DATA
