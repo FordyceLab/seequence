@@ -36,5 +36,5 @@ show(gp)
   - `x-pan`: click + drag
   - `reset`: double click
 
-**Install:**
+**Install:**    
 `pip install git+https://github.com/FordyceLab/seequence.git`
