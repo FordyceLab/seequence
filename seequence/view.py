@@ -60,7 +60,7 @@ def view_seq(seq, layer, start=0,scale=1, cd=None, xr=None):
 
   chars = Text(x='x_center_ax', y='y', text='char',
                text_align='center', text_baseline='middle',
-               text_font='monospace', text_font_size=f'{font_pt}pt', 
+               text_font={'value': 'monospace'}, text_font_size=f'{font_pt}pt', 
                text_color='black', text_alpha='alpha')
   f.add_glyph(source, chars)
 
