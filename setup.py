@@ -11,5 +11,5 @@ setup(
 	author_email = 'scott.a.longwell@gmail.com',
 	description = 'Visualize biosequences',
 	packages = find_packages(),    
-	install_requires = [],
+	install_requires = ['numpy','bokeh'],
 )
