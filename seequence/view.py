@@ -1,4 +1,4 @@
-from color import *
+from seequence.color import *
 import numpy as np
 
 from bokeh.plotting import figure, show
