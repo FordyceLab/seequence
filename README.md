@@ -38,3 +38,6 @@ show(gp)
 
 **Install:**    
 `pip install git+https://github.com/FordyceLab/seequence.git`
+
+to edit locally:   
+`pip install -e git+https://github.com/FordyceLab/seequence.git#egg=seequence`
